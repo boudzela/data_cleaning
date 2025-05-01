@@ -29,6 +29,11 @@ the dateset is https://github.com/boudzela/data_cleaning/blob/main/laptopData.cs
 use ` (backslash) to call columns that contain special characters or spaces  
 ![image](https://github.com/user-attachments/assets/b0a8721d-77ab-43de-8be4-b448fe626086)
 
+**-- trim all unwanted spaces from all text columns --**   
+![image](https://github.com/user-attachments/assets/a9069ddb-925d-4bd7-a1e5-9ef05ddd3078)  
+
+14 row(s) affected Rows matched: 1229  Changed: 14  Warnings: 0
+
 
 ### 3. Deal with null values and missing values (' ' or 0)  
 
@@ -63,9 +68,11 @@ My sql does not allow to delete row  directly from an CTE table. I had to join t
 1.2. Column Typename  
 ![image](https://github.com/user-attachments/assets/50f6c821-3033-44ef-9d17-e5a5e0cd8dbd)
 
-1.3. 
+1.3. Column Inches
 ![image](https://github.com/user-attachments/assets/039deffa-fd0d-4660-b9bf-d83b48bde548)
 
+
+![image](https://github.com/user-attachments/assets/b3e5672b-9c81-43db-9b5f-4161d70a210e)
 
 
 
