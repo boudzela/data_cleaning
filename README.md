@@ -1,7 +1,10 @@
 # data_cleaning_laptops  
-This project is my first project on cleaning data with my sql.  
-the dateset is https://github.com/boudzela/data_cleaning/blob/main/laptopData.csv and can be found here  https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset
+Source:  
+https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset  
 
+Projects I followed:  
+https://medium.com/@aakash_7/data-cleaning-using-sql-6aee7fca84ee  
+https://www.youtube.com/watch?v=4UltKCnnnTA  
 
 ###  1. Transfer the data to mysql workbench  
 
