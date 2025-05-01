@@ -1,9 +1,9 @@
-# data_cleaning_laptops 
+# data_cleaning_laptops  
 This project is my first project on cleaning data with my sql.  
 the dateset is https://github.com/boudzela/data_cleaning/blob/main/laptopData.csv and can be found here  https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset
 
 
-###  1. Transfer the data to mysql workbench
+###  1. Transfer the data to mysql workbench  
 
 **--  create database  --**  
 ![image](https://github.com/user-attachments/assets/a6a47800-dbfa-4d46-be17-37083c753050)
@@ -25,16 +25,17 @@ the dateset is https://github.com/boudzela/data_cleaning/blob/main/laptopData.cs
 
 ### 2. Deal with unnessasary information
 
-**-- drop unneccessary columns --**
+**-- drop unneccessary columns, rename columns --**  
 use ` (backslash) to call columns that contain special characters or spaces  
 ![image](https://github.com/user-attachments/assets/b0a8721d-77ab-43de-8be4-b448fe626086)
 
 
-### 3. Deal with null values. the same applied to and missing values (' ' or 0)  
+### 3. Deal with null values and missing values (' ' or 0)  
 
 
 
 ### 4. Doublicate values
+
 **-- check duplicate values --**    
 
 there are duplicates:
@@ -50,6 +51,24 @@ My sql does not allow to delete row  directly from an CTE table. I had to join t
 **-- check again for the duplicates --** 
 
 
-### Datatypes of columns
+### Datatypes of columns  
+**-- check the types, then go column by column deciding on the best option for the type and content --**  
 
-![image](https://github.com/user-attachments/assets/b7b2ce6e-9720-4b54-89ad-111a2802aa5e)
+1. Initial types:  
+![image](https://github.com/user-attachments/assets/b7b2ce6e-9720-4b54-89ad-111a2802aa5e)  
+
+1.1. Column Company  
+![image](https://github.com/user-attachments/assets/04fe0671-75cf-4381-bbf6-5cad6f9a1513)
+
+1.2. Column Typename  
+![image](https://github.com/user-attachments/assets/50f6c821-3033-44ef-9d17-e5a5e0cd8dbd)
+
+1.3. 
+![image](https://github.com/user-attachments/assets/039deffa-fd0d-4660-b9bf-d83b48bde548)
+
+
+
+
+
+
+
