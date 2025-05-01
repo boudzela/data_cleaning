@@ -69,7 +69,7 @@ My sql does not allow to delete row  directly from an CTE table. I had to join t
 ![image](https://github.com/user-attachments/assets/ef1b9696-c86b-4d87-92e1-908a4f0f6ea5)  
 
 
-1.3. Column Inches
+1.3. Column Inches  
 ![image](https://github.com/user-attachments/assets/d05910a7-21ff-44b5-a4cb-49cc4545050d)  
 
 
