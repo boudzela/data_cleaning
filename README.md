@@ -94,11 +94,11 @@ Here I made a slight mistake which hindered the process. I forgot to identify ex
 
 
 1.9. Column Price  
-For data analysis we do not need the precise price and  to round the numbers id t he best option.  
+For data analysis we do not need the precise price 
 ![image](https://github.com/user-attachments/assets/0274a0e2-4bcc-4764-b985-77110df642ef)  
 
 
-![Uploading image.png…]()
+
 
 
 
