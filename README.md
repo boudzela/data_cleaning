@@ -76,12 +76,31 @@ My sql does not allow to delete row  directly from an CTE table. I had to join t
 ![image](https://github.com/user-attachments/assets/d05910a7-21ff-44b5-a4cb-49cc4545050d)  
 
 
-1.9. Column Price  
-Initial numbers:   
-![image](https://github.com/user-attachments/assets/9f384fb0-2c8a-4063-8501-25a87779d773)  
 
+1.6. Column Cpu and Weight 
+I removed non-numerical symbols and tried to change the data type, though the weight column seems to contain row with non-numberical values. 
+![image](https://github.com/user-attachments/assets/9c91cc7f-807a-490d-b50d-2f9aeed44f3d)
+
+to indentify and remove them: 
+![image](https://github.com/user-attachments/assets/fcaaad36-9871-493b-9f11-405798883e0c)
+
+![image](https://github.com/user-attachments/assets/4ec8615e-0920-41de-a4de-bf1be1db6402)  
+
+Here I made a slight mistake which hindered the process. I forgot to identify extremes before changing the datatypes. In the script I wrote the right order
+
+
+
+
+
+
+1.9. Column Price  
 For data analysis we do not need the precise price and  to round the numbers id t he best option.  
-![image](https://github.com/user-attachments/assets/0274a0e2-4bcc-4764-b985-77110df642ef)
+![image](https://github.com/user-attachments/assets/0274a0e2-4bcc-4764-b985-77110df642ef)  
+
+
+![Uploading image.png…]()
+
+
 
 
 
