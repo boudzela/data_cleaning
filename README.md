@@ -76,6 +76,15 @@ My sql does not allow to delete row  directly from an CTE table. I had to join t
 ![image](https://github.com/user-attachments/assets/d05910a7-21ff-44b5-a4cb-49cc4545050d)  
 
 
+1.9. Column Price  
+Initial numbers:   
+![image](https://github.com/user-attachments/assets/9f384fb0-2c8a-4063-8501-25a87779d773)  
+
+For data analysis we do not need the precise price and  to round the numbers id t he best option.  
+![image](https://github.com/user-attachments/assets/0274a0e2-4bcc-4764-b985-77110df642ef)
+
+
+
 
 
 
