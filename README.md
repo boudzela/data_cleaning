@@ -59,7 +59,7 @@ My sql does not allow to delete row  directly from an CTE table. I had to join t
 **-- check again for the duplicates --** 
 
 
-### Datatypes of columns  
+### Deal with datatypes of the columns  
 **-- check the types, then go column by column deciding on the best option for the type and content --**  
 
 1. Initial types:  
