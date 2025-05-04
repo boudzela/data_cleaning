@@ -101,7 +101,10 @@ If I initially had identified extremes, the process would ahve been smoother. In
 1.6. Column Gpu  
 ![image](https://github.com/user-attachments/assets/d694b97b-824f-4988-b303-63c81c748c4c)
 
-1.7. 
+1.7. Column Memory  
+Intinial numbers  
+![image](https://github.com/user-attachments/assets/3b250bca-7d77-41b1-9a5a-f6caa0b38954)  
+
 
 
 
