@@ -1,10 +1,19 @@
-# data_cleaning_laptops  
+# data_cleaning_laptops via my sql 
 Source:  
 https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset  
 
 Projects I followed:  
 https://medium.com/@aakash_7/data-cleaning-using-sql-6aee7fca84ee  
 https://www.youtube.com/watch?v=4UltKCnnnTA  
+
+Used fuctions: 
+TRIM
+REPLACE
+ROW_NUMBER
+REGEXP
+LEFT
+RIGHT
+
 
 ###  1. Transfer the data to mysql workbench  
 
@@ -75,10 +84,8 @@ My sql does not allow to delete row  directly from an CTE table. I had to join t
 1.3. Column Inches  
 ![image](https://github.com/user-attachments/assets/d05910a7-21ff-44b5-a4cb-49cc4545050d)  
 
-
-
-1.6. Column Cpu and Weight 
-I removed non-numerical symbols and tried to change the data type, though the weight column seems to contain row with non-numberical values. 
+1.4. Column Ram and Weight  
+I removed non-numerical symbols GB and kg and tried to change the data type, though the weight column seemed to contain some rows with non-numberical values. 
 ![image](https://github.com/user-attachments/assets/9c91cc7f-807a-490d-b50d-2f9aeed44f3d)
 
 to indentify and remove them: 
@@ -86,15 +93,22 @@ to indentify and remove them:
 
 ![image](https://github.com/user-attachments/assets/4ec8615e-0920-41de-a4de-bf1be1db6402)  
 
-Here I made a slight mistake which hindered the process. I forgot to identify extremes before changing the datatypes. In the script I wrote the right order
+If I initially had identified extremes, the process would ahve been smoother. In the script I added the lines where I identify max / min value, return these values and them delete them from the table. 
 
+1.5. Column Opsys  
+![image](https://github.com/user-attachments/assets/03950476-3526-4ed8-a6fe-d80312e13b3b)  
+
+1.6. Column Gpu  
+![image](https://github.com/user-attachments/assets/d694b97b-824f-4988-b303-63c81c748c4c)
+
+1.7. 
 
 
 
 
 
 1.9. Column Price  
-For data analysis we do not need the precise price 
+For data analysis we do not need the precise price  
 ![image](https://github.com/user-attachments/assets/0274a0e2-4bcc-4764-b985-77110df642ef)  
 
 
