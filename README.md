@@ -40,7 +40,7 @@ Steps of the project and some details:
 ### 2. Deal with unnessasary information
 
 **-- drop unneccessary columns, rename columns --**  - dropped the index that started with 0  
-use ` (backslash) to call columns that contain special characters or spaces  
+used ` (backslash) to call columns that contain special characters or spaces  
 
 **-- trim all unwanted spaces from all text columns --**   
 14 row(s) affected Rows matched: 1229  Changed: 14  Warnings: 0
