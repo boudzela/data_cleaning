@@ -109,7 +109,11 @@ I decided to separate memory size and memory type for both internal and external
 
 
 Here I faced up to a problem. While I tried to update the columns, my sql workbench yelled at me as a few sells containd. '1.0' values, which is not OK for transfer as I defined the new columns as INT. For this reason I changed '1.0' to '1'  
-![image](https://github.com/user-attachments/assets/30f023ff-dbe8-42b5-8a1f-2a89db2601d0)
+![image](https://github.com/user-attachments/assets/30f023ff-dbe8-42b5-8a1f-2a89db2601d0)  
+
+Result:   
+![image](https://github.com/user-attachments/assets/29f419f4-3e0c-4dd8-a6ce-213fc0337b4e)
+
 
 
 
