@@ -3,10 +3,11 @@
 https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset  
 
 **Files:**  
-
- SQL script containing the code for data cleaning and transformation tasks performed during the project:**
-
- The cleaned dataset resulting from the data cleaning and transformation process:**  
+[laptopData.csv ](https://github.com/boudzela/data_cleaning/blob/3e2525303ca20098f1581bd8c3b816f9dee45096/laptopData.csv)- row data 
+ 
+- sql script containing the code for data cleaning and transformation tasks performed during the project:
+- sql scrip in txt format 
+- cleaned dataset resulting from the data cleaning and transformation process 
 
 
 **Projects I followed:**  
