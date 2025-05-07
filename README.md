@@ -35,7 +35,7 @@ MODIFY
 DROP
 
 **Objective:**  
-Practice sql for data-cleaning. The emphasis on the code. 
+Practice sql for data cleaning. The emphasis on the code. I simply delete all rows with incomplete / absent data.  
 
 **SQL script containing the code for data cleaning and transformation tasks performed during the project:**
 
@@ -56,6 +56,9 @@ Steps of the project and some details:
 
 **--  create a backup --**  
 
+Raw data: 
+![image](https://github.com/user-attachments/assets/571dd5b0-47e8-4da1-9de2-94097cb30ff5)
+
 ### 2. Deal with unnessasary information
 
 **-- drop unneccessary columns, rename columns --**  - dropped the index that started with 0  
@@ -67,7 +70,8 @@ used ` (backslash) to call columns that contain special characters or spaces
 
 ### 3. Deal with null values (the same about missing values (' ' or 0))  
 
-**-- Check for null values: --**  
+**-- check for null values: --**  
+there are no null values  
 
 **-- look into null values if needed --**  
 
@@ -91,24 +95,21 @@ My sql does not allow to delete row  directly from an CTE table. I had to join t
 **-- check again for the duplicates --** 
 
 
-### Deal with datatypes of the columns  
-**-- check the types --
+### 5. Deal with datatypes of the columns  
+**-- check the types --  
 -- go column by column: decide on the datatype (consider content and max/min values), remove unwanted characters, correct spelling, separate or combine values --**  
 
 * Initial types  
 ![image](https://github.com/user-attachments/assets/b7b2ce6e-9720-4b54-89ad-111a2802aa5e)  
 
-* Column Ram and Weight 
+* Column Ram and Weight    
+I run into problem with weight column as I forgot to look into extremes!  In the script I added the lines where I identify max / min value, return these values and then delete the unwanted ones from the table.  
    
-I removed non-numerical symbols GB and kg and tried to change the data type, though the weight column seemed to contain some rows with non-numberical values. 
+I removed non-numerical symbols GB and kg and tried to change the data type, though the weight column seemed to contain some rows with non-numberical values.   
 ![image](https://github.com/user-attachments/assets/9c91cc7f-807a-490d-b50d-2f9aeed44f3d)
-  
-to indentify and remove them: 
+ indentified and removed them: 
 ![image](https://github.com/user-attachments/assets/fcaaad36-9871-493b-9f11-405798883e0c)
-
 ![image](https://github.com/user-attachments/assets/4ec8615e-0920-41de-a4de-bf1be1db6402)  
-
-If I had identified extremes after I removed 'GB' and 'TB', the process would have been smoother. In the script I added the lines where I identify max / min value, return these values and then delete the unwanted ones from the table. 
 
 * Column Gpu
   
@@ -133,10 +134,17 @@ Here I faced up to a problem. While I tried to update the columns, my sql workbe
 Result:   
 ![image](https://github.com/user-attachments/assets/29f419f4-3e0c-4dd8-a6ce-213fc0337b4e)
 
-## brushing up the data  
+## 6. Final steps  
 ** -- delete the columns which the data was dirived from -- **   
+** -- fill in all blanks with nulls -- **   
+** -- double check -- **  
 
+  
 
+Result: 
+![image](https://github.com/user-attachments/assets/67ab4bca-2c1c-4598-b2b8-e9662cf4c0cc)  
+
+The data is ready for further exploration
 
 
 
