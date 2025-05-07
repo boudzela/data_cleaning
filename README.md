@@ -6,7 +6,11 @@ https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset
 https://medium.com/@aakash_7/data-cleaning-using-sql-6aee7fca84ee  
 https://www.youtube.com/watch?v=4UltKCnnnTA  
 
-**Used fuctions:** 
+**Operations applied:**  
+DML: 
+SELECT
+DELETE
+UPDATE
 TRIM
 REPLACE
 ROW_NUMBER
@@ -17,10 +21,25 @@ COUNT
 MIN 
 MAX
 CTE 
+LOCATE
+LENGTH
+MAX
+MIN
+COUNT   
+DDL: 
+CREATE
+ALTER
+ADD
+CHANGE
+MODIFY
+DROP
+
+**Objective:**  
+Practice sql for data-cleaning. The emphasis on the code. 
 
 **SQL script containing the code for data cleaning and transformation tasks performed during the project:**
 
-**The cleaned dataset resulting from the data cleaning and transformation process.**  
+**The cleaned dataset resulting from the data cleaning and transformation process:**  
 
 
 
@@ -114,6 +133,8 @@ Here I faced up to a problem. While I tried to update the columns, my sql workbe
 Result:   
 ![image](https://github.com/user-attachments/assets/29f419f4-3e0c-4dd8-a6ce-213fc0337b4e)
 
+## brushing up the data  
+** -- delete the columns which the data was dirived from -- **   
 
 
 
