@@ -5,9 +5,12 @@ https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset
 **Files:**  
 [laptopData.csv ](https://github.com/boudzela/data_cleaning/blob/3e2525303ca20098f1581bd8c3b816f9dee45096/laptopData.csv)- row data 
  
-- sql script containing the code for data cleaning and transformation tasks performed during the project:
+[data_cleaning_laptop.sql](https://github.com/boudzela/data_cleaning/blob/fe158f390bad31bc4f270319bf14e905a1908ac5/data_cleaning_laptop.sql) -  sql script containing the code for data cleaning and transformation tasks performed during the project:
 - sql scrip in txt format 
 - cleaned dataset resulting from the data cleaning and transformation process 
+
+**Objective:**  
+Practice sql for data cleaning. The emphasis on the code. I simply delete all rows with incomplete / absent data.  
 
 
 **Projects I followed:**  
@@ -42,8 +45,9 @@ CHANGE
 MODIFY
 DROP
 
-**Objective:**  
-Practice sql for data cleaning. The emphasis on the code. I simply delete all rows with incomplete / absent data.  
+**Projects I followed:**  
+https://medium.com/@aakash_7/data-cleaning-using-sql-6aee7fca84ee  
+https://www.youtube.com/watch?v=4UltKCnnnTA  
 
 
   
