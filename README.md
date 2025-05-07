@@ -2,6 +2,13 @@
 **Source:**  
 https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset  
 
+**Files:**  
+
+ SQL script containing the code for data cleaning and transformation tasks performed during the project:**
+
+ The cleaned dataset resulting from the data cleaning and transformation process:**  
+
+
 **Projects I followed:**  
 https://medium.com/@aakash_7/data-cleaning-using-sql-6aee7fca84ee  
 https://www.youtube.com/watch?v=4UltKCnnnTA  
@@ -37,12 +44,8 @@ DROP
 **Objective:**  
 Practice sql for data cleaning. The emphasis on the code. I simply delete all rows with incomplete / absent data.  
 
-**SQL script containing the code for data cleaning and transformation tasks performed during the project:**
 
-**The cleaned dataset resulting from the data cleaning and transformation process:**  
-
-
-
+  
 Steps of the project and some details: 
 ###  1. Transfer the data to mysql workbench  
 
