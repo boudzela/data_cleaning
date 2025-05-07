@@ -3,10 +3,9 @@
 https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset  
 
 **Files:**  
-[laptopData.csv ](https://github.com/boudzela/data_cleaning/blob/3e2525303ca20098f1581bd8c3b816f9dee45096/laptopData.csv)- row data 
- 
-[data_cleaning_laptop.sql](https://github.com/boudzela/data_cleaning/blob/fe158f390bad31bc4f270319bf14e905a1908ac5/data_cleaning_laptop.sql) -  sql script containing the code for data cleaning and transformation tasks performed during the project:
-- sql scrip in txt format 
+[laptopData.csv ](https://github.com/boudzela/data_cleaning/blob/3e2525303ca20098f1581bd8c3b816f9dee45096/laptopData.csv)- row data  
+[data_cleaning_laptop.sql](https://github.com/boudzela/data_cleaning/blob/fe158f390bad31bc4f270319bf14e905a1908ac5/data_cleaning_laptop.sql) -  sql script containing the code for data cleaning and transformation tasks performed during the project  
+[data_cleaning_laptop.txt](https://github.com/boudzela/data_cleaning/blob/3cac825e606bd48d1dcb3a6789274de3eed2c860/data_cleaning_laptop.txt) - sql scrip in txt format    
 - cleaned dataset resulting from the data cleaning and transformation process 
 
 **Objective:**  
