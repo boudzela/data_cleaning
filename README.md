@@ -12,10 +12,6 @@ https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset
 Practice sql for data cleaning. The emphasis on the code. I simply delete all rows with incomplete / absent data.  
 
 
-**Projects I followed:**  
-https://medium.com/@aakash_7/data-cleaning-using-sql-6aee7fca84ee  
-https://www.youtube.com/watch?v=4UltKCnnnTA  
-
 **Operations applied:**  
 DML: 
 SELECT
