@@ -6,17 +6,43 @@
 
 **thechniques used:** 
 
+**Some datails of the project:** 
 
+ 
 
-there are null and empty values in Indistry column:  
-![image](https://github.com/user-attachments/assets/d7ba5454-d100-49e8-a81c-530fc70c0f0e)
+ - I changed the names of industries namely renamed 'CryptoCurrency' and 'Crypto Currency' into 'Crypto':
+    
+![image](https://github.com/user-attachments/assets/d015e9b5-e2c9-4d46-932b-1c6f460eafe6)  
 
-locate the rows with the values:  
+the result:  
+
+![image](https://github.com/user-attachments/assets/27807923-e95b-4949-9a78-690d16471e8a)
+  
+
+- I handled missed values in industries:
+
+located the rows with the missing values:  
 ![image](https://github.com/user-attachments/assets/e4d225d1-b3ec-4493-aa32-b1901423f2d9)   
 
-try to find other rows on companies with the same name and location where the industry is filled;   
-![image](https://github.com/user-attachments/assets/993095a3-c9b3-4b09-bd11-f9c25b693fa1)  
+found other rows on companies with the same name and location where the industry is filled:   
+![image](https://github.com/user-attachments/assets/d39c2c97-84cd-4312-aeb6-ff861d8a471c)
 
-finally, replace empty values with the industries presented in other rows: 
+
+
+created a query to replace empty and null values with the values from other rows:  
+![image](https://github.com/user-attachments/assets/5ee3c1e3-f354-4b5c-82da-d0c25bb73d46)
+
+
+finally, replaced them:
+
+
+
+- I handled duplicates in the list of countries via trim(ch from sth). It was possible to use replace function instead. 
+
+![image](https://github.com/user-attachments/assets/30148718-4941-4d03-8437-f81325f66bef)
+
+the result:  
+![image](https://github.com/user-attachments/assets/8bdcd7a4-5b09-4576-834c-a38586562134)
+
 
 
