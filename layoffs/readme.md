@@ -1,7 +1,7 @@
 ### data_cleaning_layoffs  
 
 **Files:**  
-[layoffs/layoffs.csv](https://github.com/boudzela/data_cleaning/blob/a6cf68765c930831c28541f548c83a97ace7d319/layoffs/layoffs.csv) - raw data 
+[layoffs.csv](https://github.com/boudzela/data_cleaning/blob/a6cf68765c930831c28541f548c83a97ace7d319/layoffs/layoffs.csv) - raw data 
 **Objective:**
 
 **thechniques used:** 
