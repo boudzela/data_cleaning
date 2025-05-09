@@ -1,22 +1,24 @@
 ### data_cleaning_layoffs  
-**Source:**
-https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset
+**Source:**  
+https://github.com/AlexTheAnalyst/MySQL-YouTube-Series/blob/main/layoffs.csv  
+
 
 **Files:**  
 [layoffs.csv](https://github.com/boudzela/data_cleaning/blob/a6cf68765c930831c28541f548c83a97ace7d319/layoffs/layoffs.csv) - raw data 
   
-**Objective:**
+**Objective:**  
+Practice new functions. 
 
-**New operations applied:** 
-ROW_NUMBER
+**New operations applied:**   
+ROW_NUMBER 
 SELF JOIN 
-TRIM(sth FROM sth)
+TRIM(sth FROM sth)  
 STR_TO_DATE
 
-**Projects I followed:**
+**Projects I followed:**  
 https://www.youtube.com/watch?v=4UltKCnnnTA
 
-**Some datails of the project:** 
+**Some datails of the project:**  
 
 
  - I changed the names of industries namely renamed 'CryptoCurrency' and 'Crypto Currency' into 'Crypto':
