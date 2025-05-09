@@ -1,14 +1,23 @@
 ### data_cleaning_layoffs  
+**Source:**
+https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset
 
 **Files:**  
 [layoffs.csv](https://github.com/boudzela/data_cleaning/blob/a6cf68765c930831c28541f548c83a97ace7d319/layoffs/layoffs.csv) - raw data 
+  
 **Objective:**
 
-**thechniques used:** 
+**New operations applied:** 
+ROW_NUMBER
+SELF JOIN 
+TRIM(sth FROM sth)
+STR_TO_DATE
+
+**Projects I followed:**
+https://www.youtube.com/watch?v=4UltKCnnnTA
 
 **Some datails of the project:** 
 
- 
 
  - I changed the names of industries namely renamed 'CryptoCurrency' and 'Crypto Currency' into 'Crypto':
     
