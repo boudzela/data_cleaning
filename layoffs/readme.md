@@ -30,22 +30,18 @@ the result:
 ![image](https://github.com/user-attachments/assets/27807923-e95b-4949-9a78-690d16471e8a)
   
 
-- I handled missed values in industries:
+- I handled missing values in industries:
 
 located the rows with the missing values:  
 ![image](https://github.com/user-attachments/assets/e4d225d1-b3ec-4493-aa32-b1901423f2d9)   
 
 found other rows on companies with the same name and location where the industry is filled:   
-![image](https://github.com/user-attachments/assets/d39c2c97-84cd-4312-aeb6-ff861d8a471c)
+![image](https://github.com/user-attachments/assets/7d4d83e9-2799-4b4a-8530-bc65948a3c22)
 
 
 
-created a query to replace empty and null values with the values from other rows:  
-![image](https://github.com/user-attachments/assets/5ee3c1e3-f354-4b5c-82da-d0c25bb73d46)
-
-
-finally, replaced them:
-
+replaced empty and null values with the appropriate values from other rows:    
+![image](https://github.com/user-attachments/assets/5be182de-c08c-40c1-8075-6f6ec12f3703)  
 
 
 - I handled duplicates in the list of countries via trim(ch from sth). It was possible to use replace function instead. 
