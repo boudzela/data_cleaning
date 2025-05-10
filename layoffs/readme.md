@@ -4,8 +4,11 @@ https://github.com/AlexTheAnalyst/MySQL-YouTube-Series/blob/main/layoffs.csv
 
 
 **Files:**  
-[layoffs.csv](https://github.com/boudzela/data_cleaning/blob/a6cf68765c930831c28541f548c83a97ace7d319/layoffs/layoffs.csv) - raw data 
-  
+[layoffs.csv](https://github.com/boudzela/data_cleaning/blob/a6cf68765c930831c28541f548c83a97ace7d319/layoffs/layoffs.csv) - raw data  
+[layoffs/data_cleaning_layoffs_script.sql](https://github.com/boudzela/data_cleaning/blob/99d0d27f5f84a63c79b9e647b6c37701b4fe2ff7/layoffs/data_cleaning_layoffs_script.sql) - sql script containing the code for data cleaning and transformation tasks  
+[layoffs/db_layoffs.sql](https://github.com/boudzela/data_cleaning/blob/99d0d27f5f84a63c79b9e647b6c37701b4fe2ff7/layoffs/db_layoffs.sql) -  cleaned dataset resulting from the data cleaning and transformation process  
+
+
 **Objective:**  
 Practice new functions. 
 
