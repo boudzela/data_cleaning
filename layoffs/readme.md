@@ -61,7 +61,8 @@ the result:
    
 The rusult:  
   
-  ![image](https://github.com/user-attachments/assets/bac69f1b-6f2b-4427-b02f-c3663d2889d0)
+  ![image](https://github.com/user-attachments/assets/8d1f5285-6ae5-4313-950a-f92e250c96cc)
+
 
 The data is ready for further exploration 
 
