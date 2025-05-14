@@ -12,18 +12,17 @@ https://codebasics.io/resources/sales-insights-data-analysis-project
 This project focuses on sql techniques for data cleaning. The goal of this project is to build on the cleaned dataset
 
 **Skills gained**  
-HEX, removing duplicateds by ROW_NUMBER and new table 
+HEX, removing duplicateds by ROW_NUMBER and new table
+DROP ALTER RENAME 
 
-**Some steps of the project and snuppets:**  
+**Some steps of the project and snippets:**
 
-1. Data_cleaning 
-# Dealing with duplicates
 
-I did not incluse currency in the partition list as there is a negligeable likelihood of existing a row with the indentical values but in diffferent curruncy
-However, according to the results of the query, there are rows which somehow differ: 
-
-![13](https://github.com/user-attachments/assets/2c991ca3-a97c-40ce-8a40-a5b106d35c6c)
-
+### Data standartisation  
+Look into rows with duplicates:  
+![13](https://github.com/user-attachments/assets/2c991ca3-a97c-40ce-8a40-a5b106d35c6c)  
+I did not include currency in the partition list as there is a negligeable likelihood of existing a row with the indentical values but in diffferent curruncy
+  
 In the culumn currency there are duplicates: 
 ![image](https://github.com/user-attachments/assets/a4f3d71b-298f-4177-aeaf-0542b6b840d8)
 
