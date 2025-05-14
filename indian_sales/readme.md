@@ -1,21 +1,21 @@
 # data_cleaning_indian_sales 
 
-**Source:**  
+## Source:  
 https://codebasics.io/resources/sales-insights-data-analysis-project  
 
-**Files:**  
+## Files:  
 [db_dump.sql](https://github.com/boudzela/data_cleaning/blob/9d895ec4d10a73bcf100f70e0becc7827c2dd76c/indian_sales/db_dump.sql)- row data  
  -  sql script containing the code for data cleaning and transformation tasks  
  - cleaned dataset resulting from the data cleaning and transformation process
 
-**Objective:**  
+## Objective:  
 This project focuses on sql techniques for data cleaning. The goal of this project is to build on the cleaned dataset
 
-**Skills gained:**  
+## Skills gained:  
 HEX, removing duplicateds by ROW_NUMBER and new table
-DROP ALTER RENAME 
+DROP ALTER RENAME  
 
-**Some steps of the project and snippets:**  
+## Some steps of the project and snippets:  
 
 ### Dealing with duplicates and data standartization:   
 
@@ -35,7 +35,7 @@ I had to change most of the sells as most currencies were inserted in a wrong wa
 Then the data was ready for further wrangling:
 ![image](https://github.com/user-attachments/assets/f5aeb4d1-cdc0-4ade-98b7-e476e1efe5a1)  
 
-!!! it was a costly operation to copy all rows to a neww table, but when  Itries to perform loin with the initail table, my sql deleted both rows: the one with rn =  and the one with rn = 1, equal. I still havent been able tp figure our the reason for such odd behaviour 
+*!!! it was a costly operation to copy all rows to a neww table, but when  Itries to perform loin with the initail table, my sql deleted both rows: the one with rn =  and the one with rn = 1, equal. I still havent been able tp figure our the reason for such odd behaviour* 
 
 
 ### Normalisation of currencies
