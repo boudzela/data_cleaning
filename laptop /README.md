@@ -135,9 +135,9 @@ Result:
 ![image](https://github.com/user-attachments/assets/29f419f4-3e0c-4dd8-a6ce-213fc0337b4e)
 
 ## 6. Final steps  
-** -- delete the columns which the data was dirived from -- **   
-** -- fill in all blanks with nulls -- **   
-** -- double check -- **  
+**-- delete the columns which the data was dirived from --**   
+**-- fill in all blanks with nulls --**   
+**-- double check --**  
 
   
 
