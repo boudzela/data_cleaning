@@ -7,7 +7,7 @@ https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset
 [data_cleaning_laptop_script.sql](https://github.com/boudzela/data_cleaning/blob/fe158f390bad31bc4f270319bf14e905a1908ac5/data_cleaning_laptop.sql) -  sql script containing the code for data cleaning and transformation tasks  
 [db_laptop](https://github.com/boudzela/data_cleaning/tree/22ed1d5b6d751a0635118ed61881f8aea915302c/db_laptop) - cleaned dataset resulting from the data cleaning and transformation process
 
-**Objective:**  
+**Objective and assumtions:**  
 Practice sql for data cleaning. The emphasis on the code. I simply delete all rows with incomplete / absent data.  
 
 
