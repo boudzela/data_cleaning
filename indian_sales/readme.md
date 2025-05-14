@@ -12,12 +12,13 @@ https://codebasics.io/resources/sales-insights-data-analysis-project
 This project focuses on sql techniques for data cleaning. The goal of this project is to build on the cleaned dataset
 
 ## Skills gained:  
-HEX, removing duplicateds by ROW_NUMBER and new table
-DROP ALTER RENAME  
+HEX  
+removing duplicateds by ROW_NUMBER and new table  
+RENAME CHANGE   
 
 ## Some steps of the project and snippets:  
 
-### Dealing with duplicates and data standartization:   
+###  Dealing with duplicates and data standartization:   
 
 Intially, I did not include currency in the partition list as there is a negligeable likelihood of existing a row with the indentical values but in different currency:  
 ![image](https://github.com/user-attachments/assets/ee043579-9507-4e94-a84d-66aea75a9f10)  
@@ -38,7 +39,7 @@ Then the data was ready for further wrangling:
 *!!! it was a costly operation to copy all rows to a neww table, but when  Itries to perform loin with the initail table, my sql deleted both rows: the one with rn =  and the one with rn = 1, equal. I still havent been able tp figure our the reason for such odd behaviour* 
 
 
-### Normalisation of currencies
+###  Normalisation 
 Since most of the values are presented in INR, it is good to have all values in the same currency:  
 ![image](https://github.com/user-attachments/assets/8d94121c-f8fc-4840-91bd-48de9d85369b)  
 
