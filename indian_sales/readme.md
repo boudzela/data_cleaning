@@ -1,24 +1,20 @@
-# power_bi_indian_sales  
+# data_cleaning_indian_sales 
+
 **Source:**  
 https://codebasics.io/resources/sales-insights-data-analysis-project  
 
- --- **Files:**  
+**Files:**  
 [db_dump.sql](https://github.com/boudzela/data_cleaning/blob/9d895ec4d10a73bcf100f70e0becc7827c2dd76c/indian_sales/db_dump.sql)- row data  
-[data_cleaning_laptop_script.sql](https://github.com/boudzela/data_cleaning/blob/fe158f390bad31bc4f270319bf14e905a1908ac5/data_cleaning_laptop.sql) -  sql script containing the code for data cleaning and transformation tasks  
-[db_laptop](https://github.com/boudzela/data_cleaning/tree/22ed1d5b6d751a0635118ed61881f8aea915302c/db_laptop) - cleaned dataset resulting from the data cleaning and transformation process
+ -  sql script containing the code for data cleaning and transformation tasks  
+ - cleaned dataset resulting from the data cleaning and transformation process
 
 **Objective:**  
+This project focuses on sql techniques for data cleaning. The goal of this project is to build on the cleaned dataset
 
+**Skills gained**  
+HEX, removing duplicateds by ROW_NUMBER and new table 
 
-**Some operations applied:**  
-hex, row_nummber, 
-
-**Projects I followed:**  
-https://www.youtube.com/watch?v=6pifKxjyHd8&list=PLeo1K3hjS3uva8pk1FI3iK9kCOKQdz1I9&index=4  
-
-
-  
-Steps of the project and some details: 
+**Some steps of the project and snuppets:**  
 
 1. Data_cleaning 
 # Dealing with duplicates
