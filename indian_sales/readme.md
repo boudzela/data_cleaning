@@ -36,3 +36,12 @@ Then the data was ready for further wrangling:
 ![image](https://github.com/user-attachments/assets/f5aeb4d1-cdc0-4ade-98b7-e476e1efe5a1)  
 
 !!! it was a costly operation to copy all rows to a neww table, but when  Itries to perform loin with the initail table, my sql deleted both rows: the one with rn =  and the one with rn = 1, equal. I still havent been able tp figure our the reason for such odd behaviour 
+
+
+### Normalisation of currencies
+Since most of the values are presented in INR, it is good to have all values in the same currency:  
+![image](https://github.com/user-attachments/assets/8d94121c-f8fc-4840-91bd-48de9d85369b)  
+
+
+
+
