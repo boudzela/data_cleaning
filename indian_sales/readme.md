@@ -12,7 +12,7 @@ https://codebasics.io/resources/sales-insights-data-analysis-project
 This project focuses on sql techniques for data cleaning. The goal of this project is to build on the cleaned dataset
 
 ## Skills gained:  
-HEX  
+HEX, UNHEX    
 removing duplicateds by ROW_NUMBER and new table  
 RENAME CHANGE   
 
