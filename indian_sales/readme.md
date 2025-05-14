@@ -11,21 +11,28 @@ https://codebasics.io/resources/sales-insights-data-analysis-project
 **Objective:**  
 This project focuses on sql techniques for data cleaning. The goal of this project is to build on the cleaned dataset
 
-**Skills gained**  
+**Skills gained:**  
 HEX, removing duplicateds by ROW_NUMBER and new table
 DROP ALTER RENAME 
 
-**Some steps of the project and snippets:**
+**Some steps of the project and snippets:**  
 
+### Dealing with duplicates and data standartization:   
 
-### Data standartisation  
-Look into rows with duplicates:  
-![13](https://github.com/user-attachments/assets/2c991ca3-a97c-40ce-8a40-a5b106d35c6c)  
-I did not include currency in the partition list as there is a negligeable likelihood of existing a row with the indentical values but in diffferent curruncy
+Intially, I did not include currency in the partition list as there is a negligeable likelihood of existing a row with the indentical values but in different currency:  
+![image](https://github.com/user-attachments/assets/ee043579-9507-4e94-a84d-66aea75a9f10)  
+
+then I added currency to the list of groupping columns and got a drastically different result:    
+![image](https://github.com/user-attachments/assets/a3e26e7b-9977-49f6-a61a-99d034feba5b)  
+
+it urged to to look into currency table: 
+![image](https://github.com/user-attachments/assets/3ce2ee44-81b6-4d5b-95bc-2d4df786eb70)  
+
+the column currency needs to be standartized:   
+![image](https://github.com/user-attachments/assets/08956258-d66a-458f-ac4c-318dd45d35e4)    
+I had to change most of the sells as most currencies were inserted in a wrong way and it would create an issue in the future.
   
-In the culumn currency there are duplicates: 
-![image](https://github.com/user-attachments/assets/a4f3d71b-298f-4177-aeaf-0542b6b840d8)
+Then the data was ready for further wrangling:
+![image](https://github.com/user-attachments/assets/f5aeb4d1-cdc0-4ade-98b7-e476e1efe5a1)  
 
-removing duplicates from the table: 
-![image](https://github.com/user-attachments/assets/c6cd162e-e478-44dd-afa6-23adbc9e7e35)
-
+!!! it was a costly operation to copy all rows to a neww table, but when  Itries to perform loin with the initail table, my sql deleted both rows: the one with rn =  and the one with rn = 1, equal. I still havent been able tp figure our the reason for such odd behaviour 
