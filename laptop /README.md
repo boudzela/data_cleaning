@@ -43,7 +43,7 @@ https://www.youtube.com/watch?v=4UltKCnnnTA
 
 
   
-Steps of the project and some details: 
+**Steps of the project and some details:** 
 ###  1. Transfer the data to mysql workbench  
 
 **--  create database  --**   
