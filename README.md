@@ -1,3 +1,11 @@
+
+3. indian_sales - the third porject 
+
+Some operations applied:   
+* HEX, UNHEX
+* removing duplicateds by ROW_NUMBER and new table
+* DDL: RENAME CHANGE
+  
 2. layoffs  -  the second project on data wrangling
        
 Some operations applied:   
