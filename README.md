@@ -1,5 +1,5 @@
 
-3. indian_sales - the third porject 
+3. indian_sales - this project is a part of a bigger project involving power bi 
 
 Some operations applied:   
 * HEX, UNHEX
@@ -15,7 +15,7 @@ Some operations applied:
 * STR_TO_DATE
 
       
-1. laptop  -  my first, most documented project
+1. laptop  -  my first, most documented project. The data there is perfect for cleaning. 
   
 Some operations applied:  
 * DML: TRIM REPLACE ROW_NUMBER REGEXP LEFT RIGHT LOCATE LENGTH CTE DELETE UPDATE  
