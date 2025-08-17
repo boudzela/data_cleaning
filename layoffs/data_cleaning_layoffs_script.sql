@@ -1,3 +1,11 @@
+Skills gained:
+-- ROW_NUMBER and fill in a new table with the unique values ( in the previous project I used self-join)  
+-- SELF JOIN  to spot the values that can be filled in  
+-- TRIM(sth FROM sth) - replace  
+-- STR_TO_DATE  - changing strings to dates 
+
+
+
 -- create new datbase -- 
 create database layoffs; 
 -- import the data from the file --
