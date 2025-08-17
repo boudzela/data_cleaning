@@ -15,8 +15,8 @@ Practice new functions.
 **New operations applied:**   
 ROW_NUMBER and fill in a new table with the unique values ( in the previous project I used self-join)  
 SELF JOIN  to spot the values that can be filled in  
-TRIM(sth FROM sth)  
-STR_TO_DATE  
+TRIM(sth FROM sth) - replace  
+STR_TO_DATE  - changing strings to dates 
 
 **Projects I followed:**  
 https://www.youtube.com/watch?v=4UltKCnnnTA
