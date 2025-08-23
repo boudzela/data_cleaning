@@ -1,24 +1,35 @@
 ### The list of projects focused on data cleaning in the reversed order:  
-__3. indian_sales__ - this project is a part of a bigger project involving power bi 
+__4. online_retail__ - the dataset is larger than the perivious ones and I ahd to apply some optimization there (ndexes). the project is part of further cohort and rfm sql calculations 
 
-  Some operations applied:   
+  Some operations applied and skills gained:     
+  * loding data via mysql command line client  
+  * RAND() - choose random rows from the dataset   
+  * Self-joins to find pairs of records   
+  * Optimisation - composite index    
+  * DELETE by storing info into an CTE and joining through EXISTS    
+  * STR_TO_DATE - changing string to date  
+
+__3. indian_sales__ - this project is a part of a bigger project involving SQL calculations and power bi 
+
+  Some operations applied and skills gained:   
   * HEX, UNHEX
-  * removing duplicateds by ROW_NUMBER and new table
+  * removing duplicateds by ROW_NUMBER and inserting the result into a new table
   * DDL: RENAME CHANGE
   
 __2. layoffs__  -  the second project on data wrangling
        
-  Some operations applied:   
-  * ROW_NUMBER and fill in a new table with the unique values (in the previous project I used self-join)
+  Some operations applied and skills gained:   
+  *  removing duplicateds by ROW_NUMBER and inserting the result into a new table (in the previous project I used self-join)
   * SELF JOIN to spot the values that can be filled in
   * TRIM(sth FROM sth)
-  * STR_TO_DATE
+  * STR_TO_DATE - changing string to date
 
       
 __1. laptop__  -  my first, most documented project. The data there is perfect for cleaning. 
   
-  Some operations applied:  
-  * DML: TRIM REPLACE ROW_NUMBER REGEXP LEFT RIGHT LOCATE LENGTH CTE DELETE UPDATE  
+  Some operations applied and skills gained:  
+  * removind duplicates via self-joins 
+  * DML: TRIM REPLACE ROW_NUMBER REGEXP LEFT RIGHT LOCATE LENGTH  DELETE UPDATE  
   * DDL: CREATE ALTER ADD CHANGE MODIFY DROP
     
 
