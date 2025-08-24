@@ -3,9 +3,8 @@
 ## Source:  
 https://archive.ics.uci.edu/dataset/352/online+retail  
 
---## Files:  
-[online_retail/Online Retail.xlsx](https://github.com/boudzela/data_cleaning/blob/8b121baece01d9cc1f34777404550c7d584da7f4/online_retail/Online%20Retail.xlsx) - raw data
- 
+## Files:  
+[online_retail/Online Retail.xlsx](https://github.com/boudzela/data_cleaning/blob/8b121baece01d9cc1f34777404550c7d584da7f4/online_retail/Online%20Retail.xlsx) - raw data   
 [online_retail/data cleaning_online_retail_script.sql](https://github.com/boudzela/data_cleaning/blob/8b121baece01d9cc1f34777404550c7d584da7f4/online_retail/Online%20Retail.xlsx)-  sql script containing the code for data cleaning and transformation tasks  
 
 
