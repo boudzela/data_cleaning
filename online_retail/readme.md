@@ -4,9 +4,10 @@
 https://archive.ics.uci.edu/dataset/352/online+retail  
 
 --## Files:  
-[db_dump.sql](https://github.com/boudzela/data_cleaning/blob/9d895ec4d10a73bcf100f70e0becc7827c2dd76c/indian_sales/db_dump.sql)- row data  
-[data_cleaning_indian_sales_script.sql](https://github.com/boudzela/data_cleaning/blob/1cd451d09177e53a4bb2cf586d2d5356981fac83/indian_sales/data_cleaning_indian_sales_script.sql)-  sql script containing the code for data cleaning and transformation tasks  
-[db_indian_sales.sql](https://github.com/boudzela/data_cleaning/blob/1cd451d09177e53a4bb2cf586d2d5356981fac83/indian_sales/db_indian_sales.sql) - cleaned dataset resulting from the data cleaning and transformation process
+[online_retail/Online Retail.xlsx](https://github.com/boudzela/data_cleaning/blob/8b121baece01d9cc1f34777404550c7d584da7f4/online_retail/Online%20Retail.xlsx) - raw data
+ 
+[online_retail/data cleaning_online_retail_script.sql](https://github.com/boudzela/data_cleaning/blob/8b121baece01d9cc1f34777404550c7d584da7f4/online_retail/Online%20Retail.xlsx)-  sql script containing the code for data cleaning and transformation tasks  
+
 
 ## Objective:  
 This project prepares the dataa for further customer analysis
