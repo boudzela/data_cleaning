@@ -43,6 +43,8 @@ However, my sql considered the query heavy and I had to optimize it
 <img width="1156" height="131" alt="image" src="https://github.com/user-attachments/assets/29a6ecd3-8c3f-4983-a7fa-27dedcfe2595" />
 
 
+The cleaned datset constitues 300111 rows compared to initial 541909 rows. 
+
 
 
 
